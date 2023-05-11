@@ -7,3 +7,13 @@ Wenn ein bestimmter Wert erreicht wird
 ## Commands um mit der Software zu kommunizieren (Bsp.: Anmelden, Abmelden, etc.)
 Anmelden
 Abmelden
+
+
+
+
+
+
+# Worldometer API
+https://github.com/matheusfelipeog/worldometer
+
+Setup guide for installing worldometer api for developement, testing and deployment purposes.
