@@ -12,6 +12,7 @@
 - Selbstmorde dieses Jahr
 ### Quelle
 https://www.worldometers.info/de/
+
 https://github.com/matheusfelipeog/worldometer
 
 ## Trigger des Newsletters
