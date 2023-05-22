@@ -23,7 +23,7 @@ from datetime import date
 SCOPES = ['https://mail.google.com/']
     
 
-def main():
+def main(Body):
     """Shows basic usage of the Gmail API.
     Lists the user's Gmail labels.
     """
@@ -51,13 +51,13 @@ def main():
         results = service.users().labels().list(userId='me').execute()
         labels = results.get('labels', [])
 
-        gmail_send_message(service)
+        gmail_send_message(service, Body)
 
     except HttpError as error:
         # TODO(developer) - Handle errors from gmail API.
         print(f'An error occurred: {error}')
 
-def gmail_send_message(service):
+def gmail_send_message(service, Body):
     """Create and send an email message
     Print the returned  message id
     Returns: Message object, including message id
