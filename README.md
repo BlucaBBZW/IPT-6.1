@@ -2,14 +2,14 @@
 
 ## Inhalt des Newsletters (inkl. Quelle)
 ### Inhalt
-- Momentane Weltpopulation
-- Geburten dieses Jahr
-- Tote dieses Jahr
-- Bevölkerungswachstum dieses Jahr
-- Wasser verwendet dieses Jahr (Milionen Liter)
-- Todesfälle durch Rauchen dieses Jahr
-- Todesfälle durch Alkohol dieses Jahr
-- Selbstmorde dieses Jahr
+- Todesfälle heute
+- Todesfälle dieses Jahr
+- Todesfälle durch Alkohol
+- Todesfälle durch Rauchen
+- Todesfälle durch HIV
+- Todesfälle durch Krebs
+- Todesfälle von Müttern
+- Todesfälle von Kindern
 ### Quelle
 https://www.worldometers.info/de/
 
