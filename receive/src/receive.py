@@ -9,9 +9,9 @@ username = ""
 
 password = ""
 
-myclient = pymongo.MongoClient(f'mongodb+srv://{username}:{password}@memelab.swvil1y.mongodb.net/')
+myclient = pymongo.MongoClient(f'mongodb+srv://{username}:{password}')
 
-mydb = myclient["Memelab"] #db name
+mydb = myclient[""] #db name
 
 col_sub = mydb["subscribers"] # collection name
 
