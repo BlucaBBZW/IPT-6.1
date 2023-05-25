@@ -4,7 +4,6 @@ import send
 from send import gmail_send_message
 from send import main
 
-
 def check():
     while True:
 
@@ -42,3 +41,5 @@ def check():
 
 
         time.sleep(300)  # 5 Minuten warten
+
+check()
