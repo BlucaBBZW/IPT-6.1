@@ -16,6 +16,8 @@ entry.pack()
 run_button = tk.Button(root, text="Run", command=run_program)
 run_button.pack()
 
-root.mainloop()
+if __name__ == "__main__":
+    root.mainloop()
+
 
 
