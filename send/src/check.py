@@ -1,7 +1,5 @@
 import time
 import apisetup
-import send
-from send import gmail_send_message
 from send import main
 
 def check():
