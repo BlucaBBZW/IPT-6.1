@@ -20,6 +20,8 @@ from datetime import date
 
 import application
 
+from application import email
+
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://mail.google.com/']
@@ -84,9 +86,9 @@ def gmail_send_message(service, Body):
 
             message = MIMEText(EmailContent, 'html')
 
-            message['To'] = 'bbzwtest@gmail.com'
+            message['To'] = application.email
             message['From'] = 'bbzwtest@gmail.com'
-            message['Subject'] = 'Blitzer Standorte'
+            message['Subject'] = 'Worldometer API'
 
             # encoded message
             encoded_message = base64.urlsafe_b64encode(message.as_bytes()) \

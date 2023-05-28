@@ -1,9 +1,14 @@
 import tkinter as tk
 import subprocess
 
+email = ""
+
 def run_program():
-    email = entry.get()
-    subprocess.call(['/usr/bin/python3', 'send/src/check.py', email])
+    global email
+    email_value = entry.get()
+    email = email_value
+    print("Email:", email)
+    subprocess.call(['/usr/bin/python3', 'send/src/check.py'])
 
 root = tk.Tk()
 
@@ -18,6 +23,7 @@ run_button.pack()
 
 if __name__ == "__main__":
     root.mainloop()
+
 
 
 
