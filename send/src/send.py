@@ -18,6 +18,8 @@ from db import Db
 
 from datetime import date
 
+import application
+
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://mail.google.com/']
@@ -72,7 +74,7 @@ def gmail_send_message(service, Body):
 
     EmailContent = ""
     Header = "<h1>Hello</h1>"
-    Body = ""
+    Body
     for e in RadarList:
         Body += ("<p>" + e + "</p>")
     Footer = "<h2>Goodbye</h2>"

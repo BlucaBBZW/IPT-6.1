@@ -12,31 +12,31 @@ def check():
             main(Body)
 
         if (apisetup.checki_deaththisyear):
-            Body = "Today another 5000 people died :("
+            Body = "This year another 10000 people died :("
             main(Body)
 
         if (apisetup.checki_deathbyalcohol):
-            Body = "Today another 5000 people died :("
+            Body = "50 people died to alcohol :("
             main(Body)
 
         if (apisetup.checki_deathsbysmoking):
-            Body = "Today another 5000 people died :("
+            Body = "100 people died to smoking  :("
             main(Body)
 
         if (apisetup.checki_deathsbyhiv):
-           Body = "Today another 5000 people died :("
+           Body = "20 people died to HIV :("
            main(Body)
 
         if (apisetup.checki_deathsbycancer):
-            Body = "Today another 5000 people died :("
+            Body = "30 people died to cancer :("
             main(Body)
 
         if (apisetup.checki_deathsofmothers):
-            Body = "Today another 5000 people died :("
+            Body = "20 mothers died :("
             main(Body)
 
         if (apisetup.checki_deathsofchildren):
-            Body = "Today another 5000 people died :("
+            Body = "10 childrens died :("
             main(Body)
 
 
