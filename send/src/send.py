@@ -73,10 +73,8 @@ def gmail_send_message(service, Body):
     RadarList = Radar.get()
 
     EmailContent = ""
-    Header = "<h1>Hello</h1>"
+    Header = "<h1>Worldometer API</h1>"
     Body
-    for e in RadarList:
-        Body += ("<p>" + e + "</p>")
     Footer = "<h2>Goodbye</h2>"
 
     for Email in EmailList:
